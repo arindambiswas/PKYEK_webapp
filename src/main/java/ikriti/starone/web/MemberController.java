@@ -1,5 +1,10 @@
 package ikriti.starone.web;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 import ikriti.starone.web.MemberController;
 import ikriti.starone.hb.Member;
 import ikriti.starone.service.MemberService;
@@ -20,6 +25,7 @@ import com.trg.search.Search;
 @Controller
 public class MemberController
 {
+	private static String File_Path = "D:\\workspace\\Temp\\";
 	private static Logger logger = LoggerFactory.getLogger(MemberController.class);
 
 	MemberService memberService;
@@ -81,8 +87,8 @@ public class MemberController
 		}
 
 		return member;
-	}
-
+	} 
+	
 	public static void main(String[] args)
 	{
 		logger.debug("main()");

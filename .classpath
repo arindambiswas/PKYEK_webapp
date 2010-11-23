@@ -11,5 +11,11 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Program Files/Xuggle/share/java/jars/commons-cli.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Xuggle/share/java/jars/logback-classic.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Xuggle/share/java/jars/logback-core.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Xuggle/share/java/jars/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Xuggle/share/java/jars/xuggle-xuggler.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Xuggle/share/java/jars/xuggle-xuggler-test.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

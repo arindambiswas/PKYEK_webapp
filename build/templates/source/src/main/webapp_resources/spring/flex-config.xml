@@ -22,7 +22,8 @@
 
 	<bean id="memberService" class="@@@main_package@@@.service.MemberService">
 		<flex:remoting-destination />
-	</bean>	
+	</bean>
+
 <!--
 	<bean id="dpHibernateService" class="@@@main_package@@@.remote.MemberDPService">
 		<property name="sessionFactory" ref="sessionFactory" />

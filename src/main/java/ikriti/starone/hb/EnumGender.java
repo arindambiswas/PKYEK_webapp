@@ -1,5 +1,5 @@
 package ikriti.starone.hb;
-// Generated Nov 16, 2010 1:32:38 PM by Hibernate Tools 3.2.2.GA
+// Generated 23 Nov, 2010 5:42:02 PM by Hibernate Tools 3.2.2.GA
 
 
 import java.util.HashSet;
