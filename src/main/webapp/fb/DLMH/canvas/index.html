@@ -14,6 +14,16 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
     <script type="text/javascript" src="js/kalki/utils.js"></script>
     
     <script type="text/javascript">
+        function showInvite(){
+            document.getElementById('invite').style.display = 'block';
+            document.getElementById('invite').src = "invite.html";
+        }
+     
+        function hideInvite(){
+            document.getElementById('invite').style.display = 'none';
+            document.getElementById('invite').src = "about:blank";
+        }
+    
 			var flashvars = {
             				 graphAPIUrl: "https://graph.facebook.com/"
 							};
@@ -50,6 +60,9 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
               <p>You need atleast Flash Player 10.0.0.0 to view this content.
                     <a href="http://www.adobe.com/go/getflashplayer">Get Flash Player</a></p>
             </div>
+            <button onclick="showInvite()">show invite</button>
+			<button onclick="hideInvite()">hide invite</button>
+            <iframe id="invite" width="584" height="513" style="display:none"></iframe>
             
        	</div>
     </div>
